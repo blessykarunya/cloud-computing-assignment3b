@@ -38,7 +38,7 @@ public class ConcurrentProgramming {
         Caller ob1 = new Caller(target, "Hello");
         Caller ob2 = new Caller(target, "Synchronized");
         Caller ob3 = new Caller(target, "World");
-        //Sync
+    
         try {
             ob1.t.join();
             ob2.t.join();
